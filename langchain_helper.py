@@ -46,4 +46,4 @@ def get_response_from_query(db, query, k):
     user_chain = LLMChain(llm = llm, promt = user_promt)
     response = user_chain.run(question = query, docs = docs_page_content)
     response.replace("\n", "")
-    return response
+    return response, docs
