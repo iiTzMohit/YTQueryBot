@@ -25,10 +25,10 @@ def get_response_from_query(db, query, k):
     docs = db.similarity_search(query, k=k)
     docs_page_content = " ".join([d.page_content for d in docs])
 
-    llm = OpenAI(model = )
+    llm = OpenAI(model = "gpt-3.5-turbo-instruct")
 
     user_promt = PromptTemplate(
-        input_variables= ["question", "docs"]
+        input_variables= ["question", "docs"],
         template= """
         You are a helpful YouTube assistant that can answer questions about videos based on the video's transcript.
 
