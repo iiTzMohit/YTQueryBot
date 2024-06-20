@@ -27,7 +27,7 @@ def get_response_from_query(db, query, k):
 
     llm = OpenAI(model = "gpt-3.5-turbo-instruct")
 
-    user_promt = PromptTemplate(
+    user_prompt = PromptTemplate(
         input_variables= ["question", "docs"],
         template= """
         You are a helpful YouTube assistant that can answer questions about videos based on the video's transcript.
@@ -43,7 +43,7 @@ def get_response_from_query(db, query, k):
         """
     )
 
-    user_chain = LLMChain(llm = llm, promt = user_promt)
+    user_chain = LLMChain(llm = llm, prompt = user_prompt)
     response = user_chain.run(question = query, docs = docs_page_content)
     response.replace("\n", "")
     return response, docs
