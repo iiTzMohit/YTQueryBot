@@ -56,8 +56,8 @@ A web application that uses AI to answer questions about YouTube video content. 
 - **langchain_helper.py**: Includes functions for processing video transcripts, querying with OpenAI, and integrating FAISS for document retrieval.
   
 ## Credits
-This project was inspired by and developed based on the YouTube tutorial by rishabincloud. Special thanks to rishabincloud for providing detailed guidance and resources.
-- YouTube Tutorial: LangChain Crash Course for Beginners
+This project was inspired by and developed based on the YouTube tutorial by [@rishabincloud](https://www.youtube.com/watch?v=lG7Uxts9SXs&t=527s). Special thanks to @rishabincloud for providing detailed guidance and resources.
+- YouTube Tutorial: [LangChain Crash Course for Beginners](https://www.youtube.com/watch?v=lG7Uxts9SXs&t=527s)
 
 ## Contact
 For any questions or issues, please reach out to mohitagrawal1618@gmail.com.
