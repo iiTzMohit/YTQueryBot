@@ -21,8 +21,8 @@ A web application that uses AI to answer questions about YouTube video content. 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/youtube-assistant.git
-   cd youtube-assistant
+   git clone https://github.com/iiTzMohit/YTQueryBot.git
+   cd YTQueryBot
 
 ## Code Overview
 - **main.py**: Contains the Streamlit application code for the user interface and handling form submissions.
