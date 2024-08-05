@@ -27,7 +27,7 @@ A web application that uses AI to answer questions about YouTube video content. 
 
    ```bash
    python -m venv venv
-   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate   # On Windows use `.venv/Scripts/Activate.ps1`
 3. **Install Dependencies**
 
    ```bash
