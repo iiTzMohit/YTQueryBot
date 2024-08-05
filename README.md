@@ -36,5 +36,5 @@ A web application that uses AI to answer questions about YouTube video content. 
 - Push to the branch (git push origin feature-branch).
 - Create a new Pull Request.
 
-##Contact
+## Contact
 For any questions or issues, please reach out to mohitagrawal1618@gmail.com.
