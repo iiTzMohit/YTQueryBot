@@ -44,7 +44,7 @@ A web application that uses AI to answer questions about YouTube video content. 
    ```bash
    streamlit run main.py
 2. **Open the Application**
-   Open your web browser and go to http://localhost:8501.
+   - Open your web browser and go to http://localhost:8501.
 
 3. **Interact with the Application**
    - Enter the YouTube video URL in the sidebar.
