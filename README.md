@@ -23,6 +23,33 @@ A web application that uses AI to answer questions about YouTube video content. 
    ```bash
    git clone https://github.com/iiTzMohit/YTQueryBot.git
    cd YTQueryBot
+2. **Create and Activate a Virtual Environment**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+3. **Install Dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+4. **Set Up Environment Variables**
+
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key
+
+## Usage
+
+1. **Run the Application**
+
+   ```bash
+   streamlit run main.py
+2. **Open the Application**
+   Open your web browser and go to http://localhost:8501.
+
+3. **Interact with the Application**
+   - Enter the YouTube video URL in the sidebar.
+   - Ask a question about the video content.
+   - Submit the form to receive a detailed response.
 
 ## Code Overview
 - **main.py**: Contains the Streamlit application code for the user interface and handling form submissions.
