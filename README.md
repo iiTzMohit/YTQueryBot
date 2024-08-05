@@ -55,13 +55,9 @@ A web application that uses AI to answer questions about YouTube video content. 
 - **main.py**: Contains the Streamlit application code for the user interface and handling form submissions.
 - **langchain_helper.py**: Includes functions for processing video transcripts, querying with OpenAI, and integrating FAISS for document retrieval.
   
-## Contributing
-- If you want to contribute to this project, please follow these steps:
-- Fork the repository.
-- Create a new branch (git checkout -b feature-branch).
-- Commit your changes (git commit -am 'Add new feature').
-- Push to the branch (git push origin feature-branch).
-- Create a new Pull Request.
+## Credits
+This project was inspired by and developed based on the YouTube tutorial by rishabincloud. Special thanks to rishabincloud for providing detailed guidance and resources.
+- YouTube Tutorial: LangChain Crash Course for Beginners
 
 ## Contact
 For any questions or issues, please reach out to mohitagrawal1618@gmail.com.
