@@ -1,4 +1,4 @@
-# YouTube Assistant
+# YTQueryBot
 
 A web application that uses AI to answer questions about YouTube video content. Built with Streamlit for the frontend, and LangChain with OpenAI for processing and querying video transcripts.
 
